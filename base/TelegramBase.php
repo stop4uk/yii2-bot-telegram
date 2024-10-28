@@ -49,7 +49,7 @@ class TelegramBase extends Component
     /**
      * @return void
      */
-    protected function setClient(Client $client): void
+    public function setClient(Client $client): void
     {
         $this->_client = $client;
     }
