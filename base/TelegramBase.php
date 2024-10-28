@@ -46,6 +46,13 @@ class TelegramBase extends Component
      */
     private $_input;
 
+    /**
+     * @return void
+     */
+    protected function getClient(Client $client): void
+    {
+        $this->_client = $client;
+    }
 
     /**
      * @return Client
